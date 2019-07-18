@@ -19,17 +19,20 @@
 </p>
 
 ## 📝 About <a name = "about"></a>
-we are the best
+This repository contains information and files relavent to the Grand River Academny's visit to the ATR Lab. 
+ATR is a research laboratory focused on immersive robotics.
+
+
 
 ## ✍️ Project
-this contain a project break down:
+Below is an overview of the project requirements:
 
 1. **pan-tilt movement with IMU:**
    1. **Hardware requirment:** Arduino, Wires, Breadboard, 3D Print Holder, Servo Motor(SG90), MPU6050
    1. **Software:** Arduino IDE
    1. **Wire:** Using `Circuit IO` to wire 
    1. **Implemention:** <br/>Use Arduino native example code `Servo` -> `Sweep` for servo control;<br/>Download IMU library from <a href="https://github.com/jrowberg/i2cdevlib/tree/master/Arduino"> i2cdevlib</a>, and copy `I2Cdev` and `MPU6050` folder into `Arduino` -> `Library` folder. relaunch arduino IDE and use example code `MPU6050_DMP6` for IMU control
-   1. **Note:** <br/>base on different roll, pitch, yaw value on IMU, map the value to different motor, and control them base on the value change on IMU. 
+   1. **Note:** <br/>base on different roll, pitch, yaw value on IMU, map the value to different motor, and control them based on the value change on IMU. 
 1. **camera feedback with montion detection:**
    1. **Hardware requirment:** Arduino, Wires, Breadboard, 3D Print Holder, Servo Motor(SG90), MPU6050, `camera`, `OLED screen`.
    1. **Software:** Arduino IDE
