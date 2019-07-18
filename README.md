@@ -19,7 +19,7 @@
 </p>
 
 ## 📝 About <a name = "about"></a>
-This repository contains information and files relavent to the Grand River Academny's visit to the ATR Lab. 
+This repository contains information and files relavent to the Grand River Academy's visit to the ATR Lab. 
 ATR is a research laboratory focused on immersive robotics.
 
 
