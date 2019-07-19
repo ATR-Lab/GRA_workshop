@@ -25,8 +25,8 @@ ATR is a research laboratory focused on immersive robotics.
 
 
 ## 🏁 Project
-Below is an overview of the project requirements:
-
+Below is an overview of the project requirements and a simple digram for wire IMU and two Servo into arduino board :
+<img src="resources/IMU_Servo_Wire.png" alt="wires"></a>
 ### Arduino Project
 **!!Hot Glue Can Sovle EVERYTHING!!**
 1. **pan-tilt movement with IMU:**
@@ -56,7 +56,7 @@ Below is an overview of the project requirements:
 1. **Remote control**<br/>Sperate IMU and motors into two arduino
    1. **Note:** <br/>use one arduino for sending IMU data through ROS, and another for receive data and control motor
 1. **Camera view**
-   1. **Note** <br/> Look into <a href="http://wiki.ros.org/cv_bridge/Tutorials/ConvertingBetweenROSImagesAndOpenCVImagesPython">OpenCV with ROS</a> for receive image view through ROS
+   1. **Note** <br/> Look into <a href="http://wiki.ros.org/cv_bridge/Tutorials/ConvertingBetweenROSImagesAndOpenCVImagesPython">OpenCV with ROS</a> and <a href="http://wiki.ros.org/image_view">ROS image view</a> for receive image view through ROS
 
 
 
